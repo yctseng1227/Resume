@@ -1,2 +1,6 @@
 .DS_Store
 /reference
+*.aux
+*.log
+*.out
+*.gz
