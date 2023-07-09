@@ -20,6 +20,7 @@
 \usepackage{tabularx}
 \usepackage{tikz}
 \usepackage{fontawesome}
+\usepackage{bookmark}
 \input{glyphtounicode}
 
 \begin{comment}
@@ -152,7 +153,7 @@ which heading appropriate for the document you are creating.
 \begin{center}
   \textbf{\huge Cyris Tseng (Yu-Chun, Tseng)} \\ \vspace{1pt} %\scshape sets small capital letters, remove if desired
   \vspace{3mm}
-  \faGlobe{ \href{https://blog.eevee.tw}{blog.eevee.tw}} $|$
+  \faGlobe{ \href{https://blog.cyris.dev}{blog.cyris.dev}} $|$
   \faMobile{ \small (+886) 975-428-633} $|$
   \faEnvelopeO{ \href{mailto:cyris.tseng@gmail.com}{cyris.tseng@gmail.com}} $|$
   % Be sure to use a professional *personal* email address
@@ -183,20 +184,6 @@ less about the institution or where it is located (This is still good
 information though). Whatever order you choose be consistent throughout.
 \end{comment}
 
-%-----EDUCATION----------------------------------------------------------------
-\section{Education}
-  \CVSubHeadingListStart
-%    \CVSubheading % Example
-%      {Degree Achieved}{Years of Study}
-%      {Institution of Study}{Where it is located}
-    \CVSubheading
-      {M.S. in Computer Science and Engineering $|$ \emph{\small{Information Security}}}{Aug. 2019 -- July 2022 (expected)}
-      {National Sun Yat-sen University (NSYSU)}{Kaohsiung, Taiwan}
-    \CVSubheading
-      {B.S. in Computer Science and Information Engineering}{Aug. 2016 -- July 2018}
-      {National University of Kaohsiung (NUK)}{Kaohsiung, Taiwan}
-  \CVSubHeadingListEnd
-
 %-----WORK EXPERIENCE----------------------------------------------------------
 \begin{comment}
   try to briefly explain what you did and why it is relevant to the position you
@@ -211,6 +198,12 @@ information though). Whatever order you choose be consistent throughout.
   %      \CVItemListStart
   %        \CVItem{Why it is important to this employer}
   %      \CVItemListEnd
+      \CVSubheading
+        {Threat Researcher}{Sep. 2022 -- Current}
+        {Trend Micro}{Taipei, Taiwan}
+        \CVItemListStart
+          \CVItem{Tracking APT attack groups, researching emerging TTPs, and investigating security incidents}
+        \CVItemListEnd
       \CVSubheading
         {Penetration Test Intern}{May 2020 -- Aug. 2020}
         {National Center for Cyber Security Technology}{Tainan, Taiwan}
@@ -231,11 +224,25 @@ information though). Whatever order you choose be consistent throughout.
         {Club's Founding President}{Sep. 2017 -- Aug. 2018}
         {Competitive Programming Club, NUK}{Kaohsiung, Taiwan}
         \CVItemListStart
-          \CVItem{Founded and promoted the club since the algorithm competition was not popular in the department}
-          \CVItem{Acted as a lecturer during the startup period, the average attendance rate of the club members was over 80\%}
-          \CVItem{Leaded members to participate in competitions in other cities}
+          \CVItem{Founded and promoted a club to foster interest in algorithm competitions within the department}
+          \CVItem{Acted as a lecturer, achieving over 80\% average attendance rate among club members}
+          \CVItem{Led club members to compete in external competitions across multiple cities}
         \CVItemListEnd
     \CVSubHeadingListEnd
+
+%-----EDUCATION----------------------------------------------------------------
+\section{Education}
+  \CVSubHeadingListStart
+%    \CVSubheading % Example
+%      {Degree Achieved}{Years of Study}
+%      {Institution of Study}{Where it is located}
+    \CVSubheading
+      {M.S. in Computer Science and Engineering $|$ \emph{\small{Information Security}}}{Aug. 2019 -- Jul. 2022}
+      {National Sun Yat-sen University (NSYSU)}{Kaohsiung, Taiwan}
+    \CVSubheading
+      {B.S. in Computer Science and Information Engineering}{Aug. 2016 -- Jul. 2019}
+      {National University of Kaohsiung (NUK)}{Kaohsiung, Taiwan}
+  \CVSubHeadingListEnd
 
 %-----PROJECTS AND RESEARCH----------------------------------------------------
 \begin{comment}
@@ -344,10 +351,10 @@ recommends.
  \begin{itemize}[leftmargin=0.5cm, label={}]
     \small{\item{
       % \textbf{Had better or finished works}{: C/C++, Python, Bash script} \\
-      % \textbf{Had semi-finished works}{: PHP, SQL, Jenkins, Golang} \\
+      % \textbf{Had semi-finished works}{: PHP, SQL, Jenkins} \\
       % \textbf{Learned only or had simple samples}{: C\#, Java, MATLAB} \\
       % \textbf{Others}{: Docker, Git, \LaTeX, Markdown}
-      \textbf{Programming}{: C/C++, Python, Bash Script, PHP, SQL, Golang} \\
+      \textbf{Programming}{: C/C++, Python, Bash Script, PHP, SQL} \\
       \textbf{Technologies}{: Linux, Git, Docker, Jenkins, Github Actions} \\
     }}
  \end{itemize}
